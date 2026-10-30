@@ -1,7 +1,5 @@
 # Kali Linux Installation and VirtualBox Network Configuration
 
-![Kali Linux](screenshots/01-kali-linux-desktop.png)
-
 ## Project Overview
 
 This project documents the installation, configuration, and preparation of a Kali Linux virtual machine using Oracle VirtualBox as part of my cybersecurity learning and practical lab development.
@@ -57,7 +55,8 @@ Configuration details:
 
 The virtual machine's network adapter was configured to provide network connectivity.
 
-The network configuration involved VirtualBox networking settings, including NAT Network and promiscuous mode. (screenshots/02-virtualbox-settings.png)
+The network configuration involved VirtualBox networking settings, including NAT Network and promiscuous mode. 
+![Virtual-box-settings](screenshots/02-virtualbox-settings.png)
 
 Promiscuous mode was configured to **Allow All** during the lab setup.
 
@@ -105,7 +104,7 @@ sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
 ```
 
-![Static IP Configuration](screenshots/04-static-ip-configuration.png)
+![Static IP Configuration](screenshots/04-network-configuration.png)
 
 ## 5. Network Configuration Verification
 
@@ -176,10 +175,6 @@ After completing the installation and configuration process, a VirtualBox snapsh
 
 The snapshot provides a recovery point that can be used to return the virtual machine to its saved state if future lab activities introduce configuration problems.
 
-![VirtualBox Snapshot](screenshots/01-virtualbox-snapshot.png)
-
-
----
 
 **Project Status:** Installation and initial configuration completed.
 
