@@ -178,6 +178,8 @@ The snapshot provides a recovery point that can be used to return the virtual ma
 
 ![Kali-Linux-Snapshot](screenshots/01-virtualbox-kali-snapshot.png)
 
+---
+
 **Project Status:** Installation and initial configuration completed.
 
 **Author:** Oluwaniyi Damilare Enoch
