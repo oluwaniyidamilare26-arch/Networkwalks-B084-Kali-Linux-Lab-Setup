@@ -1,4 +1,4 @@
-# Kali Linux Installation and VirtualBox Network Configuration
+# Cybersecurity Lab (Kali Linux Installation and VirtualBox Network Configuration)
 
 ## Project Overview
 
