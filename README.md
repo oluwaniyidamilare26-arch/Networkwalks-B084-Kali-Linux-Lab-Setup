@@ -169,12 +169,14 @@ ping -c 4 8.8.8.8
 # Test DNS resolution
 ping google.com
 
+```
 ## 8. VirtualBox Snapshot
 
 After completing the installation and configuration process, a VirtualBox snapshot was created to preserve the virtual machine's current state.
 
 The snapshot provides a recovery point that can be used to return the virtual machine to its saved state if future lab activities introduce configuration problems.
 
+![Kali-Linux-Snapshot](screenshots/01-virtualbox-kali-snapshot.png)
 
 **Project Status:** Installation and initial configuration completed.
 
